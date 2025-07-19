@@ -1,0 +1,314 @@
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:28:51.392Z"}
+{"level":"info","message":"User connected: 0NDkSdgtrOSUDPuzAAAB","service":"polling-system","timestamp":"2025-07-18T10:29:08.079Z"}
+{"level":"info","message":"User disconnected: 0NDkSdgtrOSUDPuzAAAB (unknown)","service":"polling-system","timestamp":"2025-07-18T10:35:13.726Z"}
+{"level":"info","message":"User connected: 08XCmFEf9dmUSPKaAAAD","service":"polling-system","timestamp":"2025-07-18T10:35:16.066Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:35:52.221Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:35:58.372Z"}
+{"level":"info","message":"User connected: hF2k1iMioHEuza1cAAAB","service":"polling-system","timestamp":"2025-07-18T10:36:00.523Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:16.703Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:25.952Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:35.980Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:38.561Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:40.494Z"}
+{"level":"info","message":"User connected: qYxBXHCK5z0n7_BUAAAB","service":"polling-system","timestamp":"2025-07-18T10:36:41.707Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:52.377Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:54.034Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:57.903Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:36:59.098Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:00.256Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:03.105Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:06.869Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:17.594Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:23.054Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:26.848Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:28.559Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:41.371Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:47.021Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:37:50.648Z"}
+{"level":"info","message":"User connected: r_8oeVscNOnry8SaAAAB","service":"polling-system","timestamp":"2025-07-18T10:37:59.911Z"}
+{"level":"error","message":"Error joining as teacher: Room not found","service":"polling-system","stack":"Error: Room not found\n    at RoomService.joinRoomAsTeacher (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:32:19)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:21:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T10:42:02.180Z"}
+{"level":"info","message":"User disconnected: r_8oeVscNOnry8SaAAAB (unknown)","service":"polling-system","timestamp":"2025-07-18T10:42:02.184Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T10:42:15.877Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:01:01.245Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:01:06.916Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:01:10.703Z"}
+{"level":"info","message":"User connected: fbBHMMEw63W-eX6qAAAB","service":"polling-system","timestamp":"2025-07-18T11:01:14.150Z"}
+{"level":"info","message":"Room 51DDAB86 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:01:20.922Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 0C5E732F","service":"polling-system","timestamp":"2025-07-18T11:01:20.923Z"}
+{"level":"info","message":"Student Mustu Dias (fbBHMMEw63W-eX6qAAAB) joined room 0C5E732F","service":"polling-system","timestamp":"2025-07-18T11:02:31.406Z"}
+{"level":"info","message":"Student Mustu Dias joined room 0C5E732F","service":"polling-system","timestamp":"2025-07-18T11:02:31.408Z"}
+{"level":"error","message":"Error joining as student: Student already exists in room","service":"polling-system","stack":"Error: Student already exists in room\n    at Room.addStudent (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:19:19)\n    at RoomService.joinRoomAsStudent (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:56:14)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:89:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:02:44.219Z"}
+{"level":"info","message":"Teacher fbBHMMEw63W-eX6qAAAB left room 0C5E732F - room deactivated","service":"polling-system","timestamp":"2025-07-18T11:02:44.221Z"}
+{"level":"info","message":"User disconnected: fbBHMMEw63W-eX6qAAAB (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T11:02:44.221Z"}
+{"level":"info","message":"User connected: WaCNDWbaA9Y94eLWAAAD","service":"polling-system","timestamp":"2025-07-18T11:02:49.549Z"}
+{"level":"error","message":"Error joining as student: Room is not active","service":"polling-system","stack":"Error: Room is not active\n    at RoomService.joinRoomAsStudent (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:53:19)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:89:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:02:49.589Z"}
+{"level":"info","message":"User disconnected: WaCNDWbaA9Y94eLWAAAD (unknown)","service":"polling-system","timestamp":"2025-07-18T11:02:49.590Z"}
+{"level":"info","message":"User connected: xFq6lWsuCObPBxl_AAAF","service":"polling-system","timestamp":"2025-07-18T11:02:55.491Z"}
+{"level":"info","message":"Room 51DDAB86 cleaned up","service":"polling-system","timestamp":"2025-07-18T11:03:10.713Z"}
+{"level":"info","message":"Room 0C5E732F cleaned up","service":"polling-system","timestamp":"2025-07-18T11:03:10.713Z"}
+{"level":"info","message":"Room ACB2246E created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:03:27.299Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 6AA1A957","service":"polling-system","timestamp":"2025-07-18T11:03:27.299Z"}
+{"level":"info","message":"User disconnected: xFq6lWsuCObPBxl_AAAF (Chris Dias)","service":"polling-system","timestamp":"2025-07-18T11:03:45.707Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:04:01.208Z"}
+{"level":"info","message":"User connected: Eqe2YpQDNlI73mQzAAAB","service":"polling-system","timestamp":"2025-07-18T11:04:05.670Z"}
+{"level":"info","message":"Room 71136276 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:04:12.670Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 2F97B3C5","service":"polling-system","timestamp":"2025-07-18T11:04:12.672Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:06:45.308Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:06:48.966Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:30.688Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:34.305Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:35.825Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:37.544Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:38.971Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:42.489Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:50.496Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:53.596Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:57.031Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:07:58.735Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:08:00.099Z"}
+{"level":"info","message":"User connected: ezTI3W1zBIKm6W_YAAAB","service":"polling-system","timestamp":"2025-07-18T11:08:01.135Z"}
+{"level":"info","message":"Room 82A31D12 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:08:02.629Z"}
+{"level":"error","message":"Error joining as teacher: log is not defined","service":"polling-system","stack":"ReferenceError: log is not defined\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:23:17)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:08:02.631Z"}
+{"level":"info","message":"User disconnected: ezTI3W1zBIKm6W_YAAAB (unknown)","service":"polling-system","timestamp":"2025-07-18T11:08:02.633Z"}
+{"level":"info","message":"User connected: m3DjzGLDaQL7ROUyAAAD","service":"polling-system","timestamp":"2025-07-18T11:08:23.122Z"}
+{"level":"info","message":"Room FAC37730 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:08:23.985Z"}
+{"level":"error","message":"Error joining as teacher: log is not defined","service":"polling-system","stack":"ReferenceError: log is not defined\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:23:17)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:08:23.986Z"}
+{"level":"info","message":"User disconnected: m3DjzGLDaQL7ROUyAAAD (unknown)","service":"polling-system","timestamp":"2025-07-18T11:08:23.988Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:09:17.645Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:09:24.575Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:09:31.612Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:09:35.047Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:09:42.190Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:09:49.146Z"}
+{"level":"info","message":"User connected: j5aivtQ-0of2F_YcAAAB","service":"polling-system","timestamp":"2025-07-18T11:09:52.196Z"}
+{"level":"info","message":"Room 487F53F7 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:09:52.977Z"}
+{"level":"error","message":"Error joining as teacher: roomId is not defined","service":"polling-system","stack":"ReferenceError: roomId is not defined\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:33:29)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:09:52.978Z"}
+{"level":"info","message":"User disconnected: j5aivtQ-0of2F_YcAAAB (Chris Dias)","service":"polling-system","timestamp":"2025-07-18T11:09:52.980Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:10:27.582Z"}
+{"level":"info","message":"User connected: z31IE4HTvnlpgEtCAAAB","service":"polling-system","timestamp":"2025-07-18T11:10:28.050Z"}
+{"level":"info","message":"Room F9EBFDCC created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:10:28.805Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room F9EBFDCC","service":"polling-system","timestamp":"2025-07-18T11:10:28.807Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:10:51.507Z"}
+{"level":"info","message":"User connected: loh852EKLIALRwiiAAAB","service":"polling-system","timestamp":"2025-07-18T11:10:51.841Z"}
+{"level":"info","message":"Room 230C5E23 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:10:53.005Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 230C5E23","service":"polling-system","timestamp":"2025-07-18T11:10:53.006Z"}
+{"level":"info","message":"Student undefined (loh852EKLIALRwiiAAAB) joined room 230C5E23","service":"polling-system","timestamp":"2025-07-18T11:11:11.970Z"}
+{"level":"info","message":"Student undefined joined room 230C5E23","service":"polling-system","timestamp":"2025-07-18T11:11:11.971Z"}
+{"level":"error","message":"Error joining as student: Student already exists in room","service":"polling-system","stack":"Error: Student already exists in room\n    at Room.addStudent (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:19:19)\n    at RoomService.joinRoomAsStudent (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:56:14)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:87:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:11:22.561Z"}
+{"level":"info","message":"Teacher loh852EKLIALRwiiAAAB left room 230C5E23 - room deactivated","service":"polling-system","timestamp":"2025-07-18T11:11:22.563Z"}
+{"level":"info","message":"User disconnected: loh852EKLIALRwiiAAAB (unknown)","service":"polling-system","timestamp":"2025-07-18T11:11:22.564Z"}
+{"level":"info","message":"User connected: Joatn3iTt-oJ0GiqAAAD","service":"polling-system","timestamp":"2025-07-18T11:11:31.808Z"}
+{"level":"info","message":"Room 230C5E23 cleaned up","service":"polling-system","timestamp":"2025-07-18T11:11:51.502Z"}
+{"level":"info","message":"Room 9099537F created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:11:55.412Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 9099537F","service":"polling-system","timestamp":"2025-07-18T11:11:55.413Z"}
+{"level":"info","message":"Student Mustu Dias (Joatn3iTt-oJ0GiqAAAD) joined room 9099537F","service":"polling-system","timestamp":"2025-07-18T11:12:21.597Z"}
+{"level":"info","message":"Student Mustu Dias joined room 9099537F","service":"polling-system","timestamp":"2025-07-18T11:12:21.598Z"}
+{"level":"error","message":"Error joining as student: Student already exists in room","service":"polling-system","stack":"Error: Student already exists in room\n    at Room.addStudent (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:19:19)\n    at RoomService.joinRoomAsStudent (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:56:14)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:87:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:12:33.528Z"}
+{"level":"info","message":"Teacher Joatn3iTt-oJ0GiqAAAD left room 9099537F - room deactivated","service":"polling-system","timestamp":"2025-07-18T11:12:33.529Z"}
+{"level":"info","message":"User disconnected: Joatn3iTt-oJ0GiqAAAD (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T11:12:33.530Z"}
+{"level":"info","message":"Room 9099537F cleaned up","service":"polling-system","timestamp":"2025-07-18T11:12:51.521Z"}
+{"level":"info","message":"User connected: wR90Qx1D145DE-_JAAAF","service":"polling-system","timestamp":"2025-07-18T11:13:19.057Z"}
+{"level":"info","message":"User connected: HeZZahdXNkxXopAsAAAH","service":"polling-system","timestamp":"2025-07-18T11:13:21.790Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:14:01.472Z"}
+{"level":"info","message":"User connected: P7CCvLaZV7Au2cLeAAAB","service":"polling-system","timestamp":"2025-07-18T11:14:03.207Z"}
+{"level":"info","message":"User connected: vCR_30ZBiCp8uA0mAAAD","service":"polling-system","timestamp":"2025-07-18T11:14:07.079Z"}
+{"level":"info","message":"Room 7EF1B63B created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:14:13.757Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 7EF1B63B","service":"polling-system","timestamp":"2025-07-18T11:14:13.758Z"}
+{"level":"info","message":"User connected: 82BKbgzDVwF9JmD6AAAF","service":"polling-system","timestamp":"2025-07-18T11:14:27.564Z"}
+{"level":"info","message":"Student Mustu Dias (vCR_30ZBiCp8uA0mAAAD) joined room 7EF1B63B","service":"polling-system","timestamp":"2025-07-18T11:15:29.084Z"}
+{"level":"info","message":"Student Mustu Dias joined room 7EF1B63B","service":"polling-system","timestamp":"2025-07-18T11:15:29.085Z"}
+{"level":"info","message":"Student Mustu (82BKbgzDVwF9JmD6AAAF) joined room 7EF1B63B","service":"polling-system","timestamp":"2025-07-18T11:16:05.755Z"}
+{"level":"info","message":"Student Mustu joined room 7EF1B63B","service":"polling-system","timestamp":"2025-07-18T11:16:05.756Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:24:54.666Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:24:56.900Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:24:58.590Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:25:03.012Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:25:11.693Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:25:22.782Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:25:30.990Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:25:35.052Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:25:38.334Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:31:21.158Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:31:24.926Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:31:26.079Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:32:55.608Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:33:06.284Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:37:04.502Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:37:08.719Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:37:16.272Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:37:26.440Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:37:33.375Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:40:17.531Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:42:25.910Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:42:30.501Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:42:41.031Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:42:46.356Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:12.776Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:17.864Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:20.240Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:22.288Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:25.846Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:28.475Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:36.728Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:43:58.998Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:52:35.533Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:52:56.971Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:53:05.808Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:53:40.928Z"}
+{"level":"info","message":"::1 - - [18/Jul/2025:11:55:20 +0000] \"GET /api/rooms/ HTTP/1.1\" 200 26 \"-\" \"PostmanRuntime/7.44.1\"\n","service":"polling-system","timestamp":"2025-07-18T11:55:20.183Z"}
+{"level":"info","message":"User connected: ov0DwMzJ4qu_sfRlAAAB","service":"polling-system","timestamp":"2025-07-18T11:55:33.141Z"}
+{"level":"error","message":"Error joining as teacher: room is not defined","service":"polling-system","stack":"ReferenceError: room is not defined\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:16:17)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:55:37.279Z"}
+{"level":"info","message":"User disconnected: ov0DwMzJ4qu_sfRlAAAB (unknown)","service":"polling-system","timestamp":"2025-07-18T11:55:37.282Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:56:26.676Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:15.751Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:21.391Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:25.037Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:26.740Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:30.840Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:33.227Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T11:58:37.853Z"}
+{"level":"info","message":"::1 - - [18/Jul/2025:11:58:41 +0000] \"GET /api/rooms/ HTTP/1.1\" 200 26 \"-\" \"PostmanRuntime/7.44.1\"\n","service":"polling-system","timestamp":"2025-07-18T11:58:41.410Z"}
+{"level":"info","message":"User connected: 5drFWAdm3Z-4Q6e5AAAB","service":"polling-system","timestamp":"2025-07-18T11:58:45.248Z"}
+{"level":"info","message":"Room 0F131EB9 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T11:58:46.332Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 0F131EB9","service":"polling-system","timestamp":"2025-07-18T11:58:46.333Z"}
+{"level":"info","message":"::1 - - [18/Jul/2025:11:58:51 +0000] \"GET /api/rooms/ HTTP/1.1\" 200 161 \"-\" \"PostmanRuntime/7.44.1\"\n","service":"polling-system","timestamp":"2025-07-18T11:58:51.380Z"}
+{"level":"info","message":"User connected: 95x8TwY113EQQ9PcAAAD","service":"polling-system","timestamp":"2025-07-18T11:59:05.925Z"}
+{"level":"error","message":"Error joining as student: Room not found","service":"polling-system","stack":"Error: Room not found\n    at RoomService.joinRoomAsStudent (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:49:19)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:86:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T11:59:11.159Z"}
+{"level":"info","message":"User disconnected: 95x8TwY113EQQ9PcAAAD (unknown)","service":"polling-system","timestamp":"2025-07-18T11:59:11.162Z"}
+{"level":"info","message":"::1 - - [18/Jul/2025:11:59:21 +0000] \"GET /api/rooms/ HTTP/1.1\" 200 161 \"-\" \"PostmanRuntime/7.44.1\"\n","service":"polling-system","timestamp":"2025-07-18T11:59:21.739Z"}
+{"level":"info","message":"User connected: SmZf0QFEM5uxTokxAAAF","service":"polling-system","timestamp":"2025-07-18T11:59:45.504Z"}
+{"level":"info","message":"Student Mustu Dias (SmZf0QFEM5uxTokxAAAF) joined room 0F131EB9","service":"polling-system","timestamp":"2025-07-18T11:59:46.805Z"}
+{"level":"info","message":"Student Mustu Dias joined room 0F131EB9","service":"polling-system","timestamp":"2025-07-18T11:59:46.808Z"}
+{"level":"info","message":"::1 - - [18/Jul/2025:11:59:52 +0000] \"GET /api/rooms/ HTTP/1.1\" 200 161 \"-\" \"PostmanRuntime/7.44.1\"\n","service":"polling-system","timestamp":"2025-07-18T11:59:52.408Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T14:52:33.235Z"}
+{"level":"info","message":"User connected: CSd65uEFFfoTEtznAAAB","service":"polling-system","timestamp":"2025-07-18T14:52:43.022Z"}
+{"level":"info","message":"Room 8CF7B503 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T14:52:44.657Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 8CF7B503","service":"polling-system","timestamp":"2025-07-18T14:52:44.661Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T14:58:06.069Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T14:58:08.745Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T14:58:10.978Z"}
+{"level":"info","message":"User connected: 5DbZYgaqk-9JRT1PAAAB","service":"polling-system","timestamp":"2025-07-18T14:58:40.863Z"}
+{"level":"info","message":"User connected: z2h3XQlRyTUtAUrmAAAD","service":"polling-system","timestamp":"2025-07-18T14:58:58.921Z"}
+{"level":"info","message":"Room A4DA7BF2 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T14:59:20.522Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T14:59:20.524Z"}
+{"level":"info","message":"Student Mustu Dias (5DbZYgaqk-9JRT1PAAAB) joined room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T14:59:42.909Z"}
+{"level":"info","message":"Student Mustu Dias joined room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T14:59:42.912Z"}
+{"level":"info","message":"User connected: T9K1yKb-cL244MhnAAAF","service":"polling-system","timestamp":"2025-07-18T15:00:05.020Z"}
+{"level":"info","message":"Student Obaid (T9K1yKb-cL244MhnAAAF) joined room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:00:06.221Z"}
+{"level":"info","message":"Student Obaid joined room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:00:06.223Z"}
+{"level":"info","message":"::1 - - [18/Jul/2025:15:00:15 +0000] \"GET /api/rooms/ HTTP/1.1\" 200 161 \"-\" \"PostmanRuntime/7.44.1\"\n","service":"polling-system","timestamp":"2025-07-18T15:00:15.218Z"}
+{"level":"info","message":"Question 1ead8277-ebd5-42d9-b92b-de7fde7b469e asked in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:04:57.419Z"}
+{"level":"info","message":"Question asked in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:04:57.420Z"}
+{"level":"info","message":"Question 1ead8277-ebd5-42d9-b92b-de7fde7b469e in room A4DA7BF2 timed out","service":"polling-system","timestamp":"2025-07-18T15:05:57.431Z"}
+{"level":"error","message":"Error submitting answer: Question not found or not active","service":"polling-system","stack":"Error: Question not found or not active\n    at Room.addResponse (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:80:19)\n    at RoomService.submitAnswer (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:128:28)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:185:43)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T15:08:16.921Z"}
+{"level":"info","message":"Student 5DbZYgaqk-9JRT1PAAAB left room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:08:16.925Z"}
+{"level":"info","message":"User disconnected: 5DbZYgaqk-9JRT1PAAAB (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T15:08:16.926Z"}
+{"level":"info","message":"User connected: Qz4RongoK77GCePwAAAH","service":"polling-system","timestamp":"2025-07-18T15:08:36.228Z"}
+{"level":"info","message":"Question 984f261e-af43-4990-9fcf-1b833dbfa711 asked in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:09:28.529Z"}
+{"level":"info","message":"Question asked in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:09:28.530Z"}
+{"level":"info","message":"Student T9K1yKb-cL244MhnAAAF answered question 984f261e-af43-4990-9fcf-1b833dbfa711 in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:09:40.363Z"}
+{"level":"info","message":"Answer submitted by student T9K1yKb-cL244MhnAAAF in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:09:40.364Z"}
+{"level":"info","message":"Question 984f261e-af43-4990-9fcf-1b833dbfa711 in room A4DA7BF2 timed out","service":"polling-system","timestamp":"2025-07-18T15:10:28.540Z"}
+{"level":"info","message":"Question c2f4908f-3c89-4170-bea4-719bfa87cb28 asked in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:10:38.773Z"}
+{"level":"info","message":"Question asked in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:10:38.774Z"}
+{"level":"info","message":"Student T9K1yKb-cL244MhnAAAF answered question c2f4908f-3c89-4170-bea4-719bfa87cb28 in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:10:53.732Z"}
+{"level":"info","message":"Answer submitted by student T9K1yKb-cL244MhnAAAF in room A4DA7BF2","service":"polling-system","timestamp":"2025-07-18T15:10:53.733Z"}
+{"level":"info","message":"Question c2f4908f-3c89-4170-bea4-719bfa87cb28 in room A4DA7BF2 timed out","service":"polling-system","timestamp":"2025-07-18T15:11:38.782Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T15:11:52.392Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T15:11:54.434Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:46:21.178Z"}
+{"level":"info","message":"User connected: UKk8y8OUIGN6aZtiAAAB","service":"polling-system","timestamp":"2025-07-18T16:46:22.337Z"}
+{"level":"info","message":"Room 03085ABE created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T16:47:23.249Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:47:23.250Z"}
+{"level":"info","message":"User connected: xAjiz446aVsQF3ELAAAD","service":"polling-system","timestamp":"2025-07-18T16:47:54.300Z"}
+{"level":"info","message":"Student Mustu Dias (xAjiz446aVsQF3ELAAAD) joined room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:47:55.191Z"}
+{"level":"info","message":"Student Mustu Dias joined room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:47:55.193Z"}
+{"level":"info","message":"User connected: Ymu-TadRmwfMfabaAAAF","service":"polling-system","timestamp":"2025-07-18T16:47:58.196Z"}
+{"level":"info","message":"Student Mustu Dias (Ymu-TadRmwfMfabaAAAF) joined room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:48:21.758Z"}
+{"level":"info","message":"Student Mustu Dias joined room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:48:21.760Z"}
+{"level":"info","message":"Question 47dae33c-04e2-4163-ba2c-6c6401bc17f2 asked in room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:49:43.093Z"}
+{"level":"info","message":"Question asked in room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:49:43.094Z"}
+{"level":"info","message":"Student xAjiz446aVsQF3ELAAAD answered question 47dae33c-04e2-4163-ba2c-6c6401bc17f2 in room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:50:04.488Z"}
+{"level":"info","message":"Answer submitted by student xAjiz446aVsQF3ELAAAD in room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:50:04.489Z"}
+{"level":"info","message":"Student Ymu-TadRmwfMfabaAAAF answered question 47dae33c-04e2-4163-ba2c-6c6401bc17f2 in room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:50:14.993Z"}
+{"level":"info","message":"Answer submitted by student Ymu-TadRmwfMfabaAAAF in room 03085ABE","service":"polling-system","timestamp":"2025-07-18T16:50:14.994Z"}
+{"level":"info","message":"Question 47dae33c-04e2-4163-ba2c-6c6401bc17f2 in room 03085ABE timed out","service":"polling-system","timestamp":"2025-07-18T16:50:43.098Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:53:49.868Z"}
+{"level":"info","message":"User connected: TSGcIU6JeEQy3S0QAAAB","service":"polling-system","timestamp":"2025-07-18T16:54:00.865Z"}
+{"level":"info","message":"Room 450AFEDB created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T16:54:20.984Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 450AFEDB","service":"polling-system","timestamp":"2025-07-18T16:54:20.985Z"}
+{"level":"info","message":"User connected: QP1tEC7V5ttEpsJwAAAD","service":"polling-system","timestamp":"2025-07-18T16:54:40.867Z"}
+{"level":"info","message":"Student Mustu Dias (QP1tEC7V5ttEpsJwAAAD) joined room 450AFEDB","service":"polling-system","timestamp":"2025-07-18T16:54:43.836Z"}
+{"level":"info","message":"Student Mustu Dias joined room 450AFEDB","service":"polling-system","timestamp":"2025-07-18T16:54:43.838Z"}
+{"level":"info","message":"User connected: ots1pWSJtMjKTd-hAAAF","service":"polling-system","timestamp":"2025-07-18T16:54:54.085Z"}
+{"level":"info","message":"Student Mustu (ots1pWSJtMjKTd-hAAAF) joined room 450AFEDB","service":"polling-system","timestamp":"2025-07-18T16:55:00.470Z"}
+{"level":"info","message":"Student Mustu joined room 450AFEDB","service":"polling-system","timestamp":"2025-07-18T16:55:00.471Z"}
+{"level":"error","message":"Error asking question: selectedOption is not defined","service":"polling-system","stack":"ReferenceError: selectedOption is not defined\n    at Room.addQuestion (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:76:21)\n    at RoomService.askQuestion (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:105:31)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:135:50)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T16:55:37.509Z"}
+{"level":"info","message":"User disconnected: TSGcIU6JeEQy3S0QAAAB (Chris Dias)","service":"polling-system","timestamp":"2025-07-18T16:55:37.511Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:56:01.234Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:56:03.114Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:56:07.866Z"}
+{"level":"info","message":"User connected: gJQe0wlTd8cv7lY-AAAB","service":"polling-system","timestamp":"2025-07-18T16:56:18.730Z"}
+{"level":"info","message":"Room 56F095F0 created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T16:56:19.761Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:56:19.762Z"}
+{"level":"info","message":"User connected: KKcU4YVrQvKIc1i3AAAD","service":"polling-system","timestamp":"2025-07-18T16:56:44.349Z"}
+{"level":"info","message":"Student Mustu (KKcU4YVrQvKIc1i3AAAD) joined room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:56:45.395Z"}
+{"level":"info","message":"Student Mustu joined room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:56:45.396Z"}
+{"level":"info","message":"User connected: rYkcz92UoLewbj3pAAAF","service":"polling-system","timestamp":"2025-07-18T16:57:07.134Z"}
+{"level":"info","message":"Student Mustu Dias (rYkcz92UoLewbj3pAAAF) joined room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:57:08.060Z"}
+{"level":"info","message":"Student Mustu Dias joined room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:57:08.061Z"}
+{"level":"info","message":"Question 41fb3c8c-bed9-4454-b58e-7895cbef85a3 asked in room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:57:43.198Z"}
+{"level":"info","message":"Question asked in room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:57:43.199Z"}
+{"level":"error","message":"Error submitting answer: optionCount is not defined","service":"polling-system","stack":"ReferenceError: optionCount is not defined\n    at Room.addResponse (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:86:9)\n    at RoomService.submitAnswer (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:128:28)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:185:43)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T16:58:04.208Z"}
+{"level":"info","message":"Student rYkcz92UoLewbj3pAAAF left room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:58:04.211Z"}
+{"level":"info","message":"User disconnected: rYkcz92UoLewbj3pAAAF (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T16:58:04.212Z"}
+{"level":"error","message":"Error submitting answer: optionCount is not defined","service":"polling-system","stack":"ReferenceError: optionCount is not defined\n    at Room.addResponse (E:\\projects\\polling system\\polling-system-backend\\models\\Room.js:86:9)\n    at RoomService.submitAnswer (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:128:28)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:185:43)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T16:58:13.462Z"}
+{"level":"info","message":"Student KKcU4YVrQvKIc1i3AAAD left room 56F095F0","service":"polling-system","timestamp":"2025-07-18T16:58:13.464Z"}
+{"level":"info","message":"User disconnected: KKcU4YVrQvKIc1i3AAAD (Mustu)","service":"polling-system","timestamp":"2025-07-18T16:58:13.464Z"}
+{"level":"info","message":"Question 41fb3c8c-bed9-4454-b58e-7895cbef85a3 in room 56F095F0 timed out","service":"polling-system","timestamp":"2025-07-18T16:58:43.205Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:58:56.540Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-18T16:58:57.832Z"}
+{"level":"info","message":"User connected: AYPUr5JnoNrlRaymAAAB","service":"polling-system","timestamp":"2025-07-18T16:59:23.545Z"}
+{"level":"info","message":"Room A45BA9FA created by teacher Chris Dias","service":"polling-system","timestamp":"2025-07-18T16:59:24.379Z"}
+{"level":"info","message":"Teacher Chris Dias created and joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T16:59:24.380Z"}
+{"level":"info","message":"User connected: ZjlMbifrraZaVDRyAAAD","service":"polling-system","timestamp":"2025-07-18T16:59:46.247Z"}
+{"level":"error","message":"Error joining as student: Room not found","service":"polling-system","stack":"Error: Room not found\n    at RoomService.joinRoomAsStudent (E:\\projects\\polling system\\polling-system-backend\\services\\RoomService.js:49:19)\n    at Socket.<anonymous> (E:\\projects\\polling system\\polling-system-backend\\sockets\\socketHandler.js:86:42)\n    at Socket.emit (node:events:524:28)\n    at Socket.emitUntyped (E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\typed-events.js:69:22)\n    at E:\\projects\\polling system\\polling-system-backend\\node_modules\\socket.io\\dist\\socket.js:697:39\n    at process.processTicksAndRejections (node:internal/process/task_queues:85:11)","timestamp":"2025-07-18T16:59:47.000Z"}
+{"level":"info","message":"User disconnected: ZjlMbifrraZaVDRyAAAD (unknown)","service":"polling-system","timestamp":"2025-07-18T16:59:47.002Z"}
+{"level":"info","message":"User connected: d6TMV8W87UIISX1cAAAF","service":"polling-system","timestamp":"2025-07-18T16:59:53.588Z"}
+{"level":"info","message":"Student Mustu Dias (d6TMV8W87UIISX1cAAAF) joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:00:06.930Z"}
+{"level":"info","message":"Student Mustu Dias joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:00:06.931Z"}
+{"level":"info","message":"User connected: R-apouDCtoEFUvw_AAAH","service":"polling-system","timestamp":"2025-07-18T17:00:13.193Z"}
+{"level":"info","message":"User disconnected: R-apouDCtoEFUvw_AAAH (unknown)","service":"polling-system","timestamp":"2025-07-18T17:00:13.987Z"}
+{"level":"info","message":"User connected: _xXbUkiIQuH_LsjIAAAJ","service":"polling-system","timestamp":"2025-07-18T17:00:18.403Z"}
+{"level":"info","message":"Student Mustu Dias (_xXbUkiIQuH_LsjIAAAJ) joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:00:24.602Z"}
+{"level":"info","message":"Student Mustu Dias joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:00:24.603Z"}
+{"level":"info","message":"Question 52afb6ef-a592-41a4-95f0-0b380fd51b5d asked in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:01:10.511Z"}
+{"level":"info","message":"Question asked in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:01:10.512Z"}
+{"level":"info","message":"Student d6TMV8W87UIISX1cAAAF answered question 52afb6ef-a592-41a4-95f0-0b380fd51b5d in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:01:28.908Z"}
+{"level":"info","message":"Answer submitted by student d6TMV8W87UIISX1cAAAF in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:01:28.909Z"}
+{"level":"info","message":"Student _xXbUkiIQuH_LsjIAAAJ answered question 52afb6ef-a592-41a4-95f0-0b380fd51b5d in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:01:38.048Z"}
+{"level":"info","message":"Answer submitted by student _xXbUkiIQuH_LsjIAAAJ in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:01:38.049Z"}
+{"level":"info","message":"Question 52afb6ef-a592-41a4-95f0-0b380fd51b5d in room A45BA9FA timed out","service":"polling-system","timestamp":"2025-07-18T17:02:10.521Z"}
+{"level":"info","message":"Student d6TMV8W87UIISX1cAAAF kicked from room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:04:25.810Z"}
+{"level":"info","message":"Student d6TMV8W87UIISX1cAAAF left room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:04:25.811Z"}
+{"level":"info","message":"User disconnected: d6TMV8W87UIISX1cAAAF (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T17:04:25.812Z"}
+{"level":"info","message":"Student d6TMV8W87UIISX1cAAAF kicked from room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:04:25.812Z"}
+{"level":"info","message":"Student _xXbUkiIQuH_LsjIAAAJ kicked from room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:05:38.545Z"}
+{"level":"info","message":"Student _xXbUkiIQuH_LsjIAAAJ left room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:05:38.545Z"}
+{"level":"info","message":"User disconnected: _xXbUkiIQuH_LsjIAAAJ (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T17:05:38.546Z"}
+{"level":"info","message":"Student _xXbUkiIQuH_LsjIAAAJ kicked from room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:05:38.546Z"}
+{"level":"info","message":"User connected: Uwq36NsMB9jhAlTnAAAL","service":"polling-system","timestamp":"2025-07-18T17:10:13.874Z"}
+{"level":"info","message":"Student Mustu (Uwq36NsMB9jhAlTnAAAL) joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:10:19.131Z"}
+{"level":"info","message":"Student Mustu joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:10:19.132Z"}
+{"level":"info","message":"User connected: dDd9rbx4xPMR9GrfAAAN","service":"polling-system","timestamp":"2025-07-18T17:10:25.099Z"}
+{"level":"info","message":"Student Mustu Dias (dDd9rbx4xPMR9GrfAAAN) joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:10:27.087Z"}
+{"level":"info","message":"Student Mustu Dias joined room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:10:27.088Z"}
+{"level":"info","message":"Chat message from Mustu in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:13:18.927Z"}
+{"level":"info","message":"Chat message sent in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:13:18.927Z"}
+{"level":"info","message":"Chat message from Mustu Dias in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:13:24.093Z"}
+{"level":"info","message":"Chat message sent in room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:13:24.094Z"}
+{"level":"info","message":"Student dDd9rbx4xPMR9GrfAAAN left room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:17:16.904Z"}
+{"level":"info","message":"User disconnected: dDd9rbx4xPMR9GrfAAAN (Mustu Dias)","service":"polling-system","timestamp":"2025-07-18T17:17:16.905Z"}
+{"level":"info","message":"User disconnected: AYPUr5JnoNrlRaymAAAB (Chris Dias)","service":"polling-system","timestamp":"2025-07-18T17:17:27.685Z"}
+{"level":"info","message":"Student Uwq36NsMB9jhAlTnAAAL left room A45BA9FA","service":"polling-system","timestamp":"2025-07-18T17:17:36.548Z"}
+{"level":"info","message":"User disconnected: Uwq36NsMB9jhAlTnAAAL (Mustu)","service":"polling-system","timestamp":"2025-07-18T17:17:36.549Z"}
