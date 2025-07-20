@@ -88,7 +88,7 @@ const RoomService = class {
         return room;
     }
 
-    askQuestion(roomId, teacherId, questionData) {
+    askQuestion(roomId, teacherId, questionData, timeLimit) {
         const room = this.getRoom(roomId);
         if (!room) {
             throw new Error('Room not found');
@@ -104,11 +104,11 @@ const RoomService = class {
         // Add new question
         const question = room.addQuestion(questionData);
         
-        // Set timer for 60 seconds
+        // Set timer for x seconds
         room.questionTimer = setTimeout(() => {
             room.endCurrentQuestion();
             logger.info(`Question ${question.id} in room ${roomId} timed out`);
-        }, 60000);
+        }, timeLimit);
 
         logger.info(`Question ${question.id} asked in room ${roomId}`);
         return question;

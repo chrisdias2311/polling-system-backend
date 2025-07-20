@@ -16,22 +16,27 @@ class Server {
     constructor() {
         this.app = express();
         this.server = http.createServer(this.app);
+        const allowedOrigins = [
+            process.env.CLIENT_URL || "http://localhost:3000",
+            "http://localhost:3000",
+            "http://localhost:5173"
+        ];
         this.io = socketIo(this.server, {
             cors: {
-                origin: process.env.CLIENT_URL || "http://localhost:3000",
+                origin: allowedOrigins,
                 methods: ["GET", "POST"],
                 credentials: true
             }
         });
         this.port = process.env.PORT || 5000;
         
-        this.initializeMiddleware();
+        this.initializeMiddleware(allowedOrigins);
         this.initializeRoutes();
         this.initializeSocketHandlers();
         this.initializeErrorHandling();
     }
 
-    initializeMiddleware() {
+    initializeMiddleware(allowedOrigins) {
         // Security middleware
         this.app.use(helmet());
         
@@ -44,7 +49,7 @@ class Server {
 
         // CORS
         this.app.use(cors({
-            origin: process.env.CLIENT_URL || "http://localhost:3000",
+            origin: allowedOrigins,
             credentials: true
         }));
 

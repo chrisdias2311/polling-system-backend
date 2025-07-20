@@ -1,8 +1,9 @@
 const { v4: uuidv4 } = require('uuid');
+const { shouldCreateCustomRoomId } = require('../utils/flags');
 
 class Room {
     constructor(teacherName) {
-        this.id = uuidv4().substring(0, 8).toUpperCase();
+        this.id = shouldCreateCustomRoomId() ? uuidv4().substring(0, 8).toUpperCase() : '000000';
         this.teacherName = teacherName;
         this.teacherId = null;
         this.students = new Map(); // studentId -> {name, joinTime, isKicked}
@@ -71,7 +72,8 @@ class Room {
             correctAnswer: question.correctAnswer,
             askedAt: new Date(),
             responses: new Map(), // studentId -> selectedOption
-            isActive: true
+            isActive: true,
+            createdAt: new Date()
         };
         this.questions.push(questionData);
         this.currentQuestion = questionData;

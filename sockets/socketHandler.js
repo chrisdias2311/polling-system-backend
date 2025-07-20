@@ -101,6 +101,7 @@ const socketHandler = (io) => {
 
                 // Notify teacher and other students
                 socket.to(roomId).emit('student-joined', {
+                    id: socket.id,
                     studentName,
                     studentCount: room.getStudentCount(),
                     message: `${studentName} joined the room`
@@ -131,38 +132,41 @@ const socketHandler = (io) => {
                     return;
                 }
 
-                const { question, options } = data;
+                const { question, options, timer } = data;
                 const roomId = socket.roomId;
 
                 const questionData = roomService.askQuestion(roomId, socket.id, {
                     question,
                     options
-                });
+                }, timer);
 
                 // Broadcast question to all students in the room
                 socket.to(roomId).emit('new-question', {
                     question: questionData,
-                    timeLeft: 60
+                    timer
                 });
 
                 // Confirm to teacher
                 socket.emit('question-asked', {
                     success: true,
                     question: questionData,
+                    timer,
                     message: 'Question sent to all students'
                 });
 
                 // Set up automatic question end after 60 seconds
                 setTimeout(() => {
+                    console.log("SETTIMEOOUT")
                     const room = roomService.getRoom(roomId);
-                    if (room && room.currentQuestion && room.currentQuestion.id === questionData.id) {
-                        const stats = room.getQuestionStats(questionData.id);
-                        io.to(roomId).emit('question-ended', {
-                            questionId: questionData.id,
-                            stats
-                        });
-                    }
-                }, 60000);
+                    const stats = room.getQuestionStats(questionData.id);
+                    io.to(roomId).emit('question-ended', {
+                        questionId: questionData.id,
+                        stats
+                    });
+                    // if (room && room.currentQuestion && room.currentQuestion.id === questionData.id) {
+
+                    // }
+                }, timer);
 
                 logger.info(`Question asked in room ${roomId}`);
             } catch (error) {
