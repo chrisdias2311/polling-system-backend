@@ -1633,3 +1633,47 @@
 {"level":"info","message":"Chat message from Maam in room 000000","service":"polling-system","timestamp":"2025-07-19T19:08:03.629Z"}
 {"level":"info","message":"Chat message sent in room 000000","service":"polling-system","timestamp":"2025-07-19T19:08:03.629Z"}
 {"level":"info","message":"User disconnected: iu2ErE2A88fR_zyBAAR1 (Maam)","service":"polling-system","timestamp":"2025-07-19T19:09:20.397Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-20T01:48:49.065Z"}
+{"level":"info","message":"::1 - - [20/Jul/2025:01:49:28 +0000] \"GET /health HTTP/1.1\" 200 54 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"\n","service":"polling-system","timestamp":"2025-07-20T01:49:28.904Z"}
+{"level":"info","message":"::1 - - [20/Jul/2025:01:49:28 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"\n","service":"polling-system","timestamp":"2025-07-20T01:49:28.966Z"}
+{"level":"info","message":"Server running on port 5000","service":"polling-system","timestamp":"2025-07-20T02:38:33.939Z"}
+{"level":"info","message":"::1 - - [20/Jul/2025:02:43:10 +0000] \"GET /health HTTP/1.1\" 200 54 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"\n","service":"polling-system","timestamp":"2025-07-20T02:43:10.001Z"}
+{"level":"info","message":"::1 - - [20/Jul/2025:02:43:10 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"\n","service":"polling-system","timestamp":"2025-07-20T02:43:10.732Z"}
+{"level":"info","message":"::1 - - [20/Jul/2025:02:43:18 +0000] \"GET /health HTTP/1.1\" 200 54 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"\n","service":"polling-system","timestamp":"2025-07-20T02:43:18.122Z"}
+{"level":"info","message":"::1 - - [20/Jul/2025:02:43:21 +0000] \"GET /health HTTP/1.1\" 200 54 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36\"\n","service":"polling-system","timestamp":"2025-07-20T02:43:21.396Z"}
+{"level":"info","message":"User connected: jN7f_tVX9UFJDGc0AAEU","service":"polling-system","timestamp":"2025-07-20T02:45:04.631Z"}
+{"level":"info","message":"User connected: aWImWy4abdkkVpvEAAEv","service":"polling-system","timestamp":"2025-07-20T02:45:37.272Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:45:40.176Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:40.177Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:45:40.178Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:40.179Z"}
+{"level":"info","message":"Student Chris (aWImWy4abdkkVpvEAAEv) joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:46.738Z"}
+{"level":"info","message":"Student Chris joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:46.740Z"}
+{"level":"info","message":"Question dc16fa21-dc2e-4b97-b859-5c77086b35f3 asked in room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:51.691Z"}
+{"level":"info","message":"Question asked in room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:51.692Z"}
+{"level":"info","message":"Chat message from Maam in room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:59.642Z"}
+{"level":"info","message":"Chat message sent in room 000000","service":"polling-system","timestamp":"2025-07-20T02:45:59.643Z"}
+{"level":"info","message":"Chat message from Chris in room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:07.588Z"}
+{"level":"info","message":"Chat message sent in room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:07.589Z"}
+{"level":"info","message":"Chat message from Maam in room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:14.058Z"}
+{"level":"info","message":"Chat message sent in room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:14.059Z"}
+{"level":"info","message":"Student aWImWy4abdkkVpvEAAEv answered question dc16fa21-dc2e-4b97-b859-5c77086b35f3 in room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:21.768Z"}
+{"level":"info","message":"Answer submitted by student aWImWy4abdkkVpvEAAEv in room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:21.769Z"}
+{"level":"info","message":"Student aWImWy4abdkkVpvEAAEv kicked from room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:26.414Z"}
+{"level":"info","message":"Student aWImWy4abdkkVpvEAAEv left room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:26.415Z"}
+{"level":"info","message":"User disconnected: aWImWy4abdkkVpvEAAEv (Chris)","service":"polling-system","timestamp":"2025-07-20T02:46:26.416Z"}
+{"level":"info","message":"Student aWImWy4abdkkVpvEAAEv kicked from room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:26.416Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:46:42.953Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:42.954Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:46:42.954Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:42.955Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:46:45.955Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:45.956Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:46:45.956Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:45.957Z"}
+{"level":"info","message":"Question dc16fa21-dc2e-4b97-b859-5c77086b35f3 in room 000000 timed out","service":"polling-system","timestamp":"2025-07-20T02:46:51.699Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:46:55.963Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:55.963Z"}
+{"level":"info","message":"Room 000000 created by teacher Maam","service":"polling-system","timestamp":"2025-07-20T02:46:55.964Z"}
+{"level":"info","message":"Teacher Maam created and joined room 000000","service":"polling-system","timestamp":"2025-07-20T02:46:55.964Z"}
+{"level":"info","message":"User disconnected: jN7f_tVX9UFJDGc0AAEU (Maam)","service":"polling-system","timestamp":"2025-07-20T02:48:00.260Z"}
